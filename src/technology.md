@@ -1,6 +1,6 @@
 # Technology
 
-[Example on SO surveys](https://survey.stackoverflow.co/2024/technology/#2-programming-scripting-and-markup-languages)
+This visualisation will be a verbatim copy of the one shown [here](https://survey.stackoverflow.co/2024/technology/#2-programming-scripting-and-markup-languages).
 
 ## TODO
 

@@ -10,6 +10,8 @@ toc: false
 const overview = FileAttachment("./data/overview.json").json();
 ```
 
+This view includes a table for raw data exploration.
+
 ```js
 Inputs.table(overview)
 ```
