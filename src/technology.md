@@ -4,7 +4,6 @@ This visualisation will be a verbatim copy of the one shown [here](https://surve
 
 ## TODO
 
-- Add tooltips
 - Merge both graphs into one
 
 ```js
@@ -33,6 +32,7 @@ Plot.plot({
             fill: "language",
             fx: "type",
         }),
+        Plot.tip(TechnologyResults, Plot.pointer({x: "count", y: "language"}))
     ]
 })
 
