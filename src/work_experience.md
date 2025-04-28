@@ -9,3 +9,7 @@ const WorkExperienceResults = FileAttachment("./data/work_experience.json").json
 ```js
 display(WorkExperienceResults);
 ```
+
+![Stack Overflow Developer Survey 2024 - Work, Salary, and Experience](./include/stackoverflow-dev-survey-2024-work-salary-comp-total-years-code-pro-dev-type-social.png)
+
+

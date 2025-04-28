@@ -38,3 +38,5 @@ Plot.plot({
 
 
 ```
+
+![Stack Overflow Developer Survey 2024 - Technology](./include/stackoverflow-dev-survey-2024-technology-admired-and-desired-language-desire-admire-social.png)
