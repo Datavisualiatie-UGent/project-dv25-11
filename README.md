@@ -16,6 +16,9 @@ Then visit <http://localhost:3000> to preview your app.
 
 For more, see <https://observablehq.com/framework/getting-started>.
 
+## Project report
+The project progress report is available [here](./Report.md)
+
 ## Project structure
 
 A typical Framework project looks like this:
