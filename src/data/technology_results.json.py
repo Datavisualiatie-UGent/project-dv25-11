@@ -16,6 +16,7 @@ with gzip.open("src/data/survey_results_public.csv.gz", "rt", encoding="utf-8") 
                     {
                         "language": lang,
                         "type": "admired",
+                        "devtype": row["DevType"],
                     }
                 )
         for lang in row["LanguageWantToWorkWith"].split(";"):
@@ -23,6 +24,7 @@ with gzip.open("src/data/survey_results_public.csv.gz", "rt", encoding="utf-8") 
                     {
                         "language": lang,
                         "type": "desired",
+                        "devtype": row["DevType"],
                     }
                 )
 
