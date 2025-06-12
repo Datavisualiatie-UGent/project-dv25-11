@@ -4,18 +4,17 @@ toc: false
 
 <div class="hero">
   <h1>StackOverflow Developer Survey</h1>
+  <h2>Visualizing the StackOverflow Developer Survey 2024</h2>
+
 </div>
 
 ```js
 const overview = FileAttachment("./data/overview.json").json();
 ```
 
-This view includes a table for raw data exploration.
+In May 2024, over 65,000 developers responded to the annual StackOverflow survey about coding, the technologies and tools they use and want to learn, AI, and developer experience at work.
 
-```js
-Inputs.table(overview)
-```
-
+This project visualizes a selection of the survey results, focusing on the most admired and desired programming languages and the distribution of developer types per country.
 
 <style>
 

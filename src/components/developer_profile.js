@@ -8,7 +8,7 @@ export function plotDeveloperProfileData(results) {
       width: window.innerWidth,
       height: window.innerHeight,
       fx: {
-          tickRotate: 45,
+          tickRotate: 90,
       },
       marks: [
         Plot.waffleY(
