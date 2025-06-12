@@ -29,7 +29,12 @@ To simplify the visualization, I will use the absolute count of answers, rather 
 
 
 Further iterations should include a functional tooltip with relevant information and a more polished design. I should also consider reverting to showing percentages to give a better overview of the data.
-Furthermore it would be useful to include the respondent `developer type` and allow a selectable filter to show the data for a specific developer type.
+
+In the following plot, I added a select element to choose a programming language to see its distribution across different developer types. This provides insights into how various programming languages are perceived and utilized by different segments of the developer community.
+
+![Technology attempt 2](src/include/technology-attempt2.png)
+
+
 
 ### Developer profile plot
 

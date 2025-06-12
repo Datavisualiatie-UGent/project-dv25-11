@@ -30,3 +30,29 @@ export function plotTechnologyData(results) {
       ],
     });
 }
+
+
+export function plotTechnologyDataPerDevType(results, language) {
+  return Plot.plot({
+    x: { axis: "bottom", tickFormat: Math.abs, label: "Count" },
+    y: { tickFormat: (d) => d.replace(/Developer, /g, " "), tickRotate: 45, grid: true },
+    title: language,
+    marginLeft: 100,
+    marginTop: 50,
+    color: { scheme: "RdBu", domain: ["desired", "admired"], legend: true },
+    marks: [
+      Plot.barX(
+        results.filter((d) => d.language === language),
+        Plot.groupY(
+          { x: (d) => d.length * sign(d[0].type) },
+          {
+            fill: "type",
+            order: ["desired", "admired"],
+            y: "devtype",
+            tip: true,
+          }
+        )
+      ),
+    ],
+  });
+}
