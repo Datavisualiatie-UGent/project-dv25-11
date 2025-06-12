@@ -30,3 +30,21 @@ To simplify the visualization, I will use the absolute count of answers, rather 
 
 Further iterations should include a functional tooltip with relevant information and a more polished design. I should also consider reverting to showing percentages to give a better overview of the data.
 Furthermore it would be useful to include the respondent `developer type` and allow a selectable filter to show the data for a specific developer type.
+
+### Developer profile plot
+
+Interactive visualistion where the user can select a country and see the distribution of developer types in that country in a stacked waffle chart.
+This should be a combination of the data visualized [here](https://survey.stackoverflow.co/2024/developer-profile#4-developer-type) and [here](https://survey.stackoverflow.co/2024/developer-profile#5-geography)
+
+In a first attempt, I created a simple stacked waffle chart that shows the number dev's for each of the developer types per country. This resulted in an unreadable chart, because of the large number of countries.
+
+![Developer profile attempt 1](./src/include/profile-attempt1.png)
+
+I decided to make the chart interactive, so that the user can select a country and see the distribution of developer types in that country.
+
+![Developer profile attempt 2](./src/include/profile-attempt2.png)
+
+This resulted in a poorly designed chart, that is not very readable and does not show the data in a meaningful way. I will need to iterate on this design to make it more readable and useful.
+
+In the end I opted the show a bar chart with the number of developers per type for the selected country, as shown below:
+![Developer profile attempt 3](./src/include/profile-attempt3.png)
