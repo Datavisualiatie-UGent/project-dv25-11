@@ -33,7 +33,7 @@ selectCountry.onchange = (event) => {
   display(plotDeveloperProfileDataPerCountry(DeveloperProfileResults, selectedCountry));
 };
 
-display(html`Select a country to see the distirbution of developer types per country<br>`);
+display(html`Select a country to see the distribution of developer types per country<br>`);
 display(selectCountry);
 
 ```
