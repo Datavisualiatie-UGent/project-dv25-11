@@ -47,6 +47,7 @@ export function plotDeveloperProfileDataPerCountry(results, country) {
           {
             y: "DevType",
             fill: "DevType",
+            tip: true,
           }
         )
       ),
