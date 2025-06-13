@@ -53,3 +53,12 @@ This resulted in a poorly designed chart, that is not very readable and does not
 
 In the end I opted the show a bar chart with the number of developers per type for the selected country, as shown below:
 ![Developer profile attempt 3](./src/include/profile-attempt3.png)
+
+
+## Future work
+
+Future work should include expanding on the number of sections and visualizations, as well as improving the design and underlying code.
+
+Existing visualizations could do with some extra polishing and bugfixes, such as the technology plot, which currently does not show the tooltip correctly.
+
+Nice to have features for the developer profile plot would to add a clickable map to select a country, rather than a dropdown. I should also investigate other types of visualizations, such as pie charts to better represent the data.
