@@ -35,9 +35,9 @@ export function plotTechnologyData(results) {
 export function plotTechnologyDataPerDevType(results, language) {
   return Plot.plot({
     x: { axis: "bottom", tickFormat: Math.abs, label: "Count" },
-    y: { tickFormat: (d) => d.replace(/Developer, /g, " "), tickRotate: 45, grid: true },
+    y: { tickFormat: (d) => d.replace(/Developer, /g, " "), grid: true },
     title: language,
-    marginLeft: 100,
+    marginLeft: 200,
     marginTop: 50,
     color: { scheme: "RdBu", domain: ["desired", "admired"], legend: true },
     marks: [
